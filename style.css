@@ -88,3 +88,176 @@ a {
     display: flex;
     height: 1px;
 }
+.slider {
+    height: 380px;
+    width: auto;
+    overflow-x: auto;
+}
+.slide {
+    width: auto;
+    flex-shrink: 10;
+    height: 380px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.icon{
+
+}
+
+.secdis{
+    display: flex;
+    justify-content: space-around;
+    height: 290px;
+    background-color: #ffffff;
+    align-items: center;
+
+}
+.secdiss{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sectitle{
+    font-size: 20px;
+    line-height: 24px;
+    color: #894aa3;
+    font-family: "Georgia";
+    padding-left: 20px;
+}
+.secp{
+    width: 209px;
+    height: 117px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Georgia";
+    padding-left: 20px;
+}
+
+.seccard{
+    display: flex;
+    justify-content: space-around;
+    height: 420px;
+    background-color: #ebebea;
+    align-items: center;
+}
+
+.cards{
+    width: 280px;
+    height: 320px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 8px;
+}
+.cardimage{
+    height: 180px;
+    width: 260px;
+}
+
+.cardp{
+    width: 250px;
+    height: 57px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Georgia";
+    text-align: center;
+    padding-left: 14px;
+}
+.cardtitle{
+    font-size: 16px;
+    line-height: 19px;
+    color: #894aa3;
+    font-family: "Georgia";
+}
+.footerline{
+    height: 1px;
+    background-color: #e1e1e1;
+}
+.footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    background-color: #ffffff;
+}
+.contitle{
+    width: 209px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #666666;
+    font-family: "Georgia";
+}
+.conp{
+    width: 209px;
+    height: 117px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+    font-family: "Georgia";
+}
+.contact{
+    width: 209px;
+}
+.quicklinks{
+    width: 209px;
+}
+.blog{
+    width: 209px;
+}
+.newsletter{
+    width: 209px;
+}
+.lnks{
+  border-bottom: #333333;
+  padding-right: 20px;
+  padding-inline-start: 0px;
+  border-bottom: 2px solid #e6e6e6;
+}
+.readmore{
+    font-size: 12px;
+    line-height: 0px;
+    color: #874ca0;
+    font-family: "Georgia";
+    text-align: right;
+}
+.newsltt{
+    border-color:#e6e6e6 ;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+    font-family: "Georgia";
+    width: 210px;
+    height: 31px;
+    border-radius: 7px;
+    background-color: #e6e6e6;
+}
+.newsubmit{
+    font-size: 13px;
+    line-height: 21px;
+    color: #874ca0;
+    font-family: "Georgia";
+    width: 80px;
+    height: 31px;
+    border-radius: 7px;
+    background-color: #e6e6e6;
+}
+
+.copyrights{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #444444;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.copytext{
+    font-size: 12px;
+    line-height: 14px;
+    color: #d0d0d0;
+    font-family: "Georgia";    
+}
