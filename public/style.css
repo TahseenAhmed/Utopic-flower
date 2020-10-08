@@ -1,65 +1,80 @@
-body{
+/* body{
     background-color: #d0d0d0;
     padding-left: 20px;
     padding-right: 20px;
+ */
+/* Use Container Tag For Main */
+.container{    
+    width: 1260px;
+    margin: 0 auto;
+    background-color: #d0d0d0;
 }
-.test{
+/* For Header items */
+.top-header{
     width: auto;
     height: 140px;
     background-color: #ffffff;
 }
-.purpline{
+/* Header Upper Line */
+.top-header-bar{
       background-color:#894aa3;
       display: flex;
       height: 10px;
+      flex-wrap: wrap;
 }
-.srchbar{
+/* For Search Bar */
+.search-bar{
     border-bottom-left-radius: 10px ;
     border-bottom-right-radius: 10px ;
     width: 216px;
     height: 20px;
     background-color: #ebebea;
 }
-.flx{
+/* For Search bar Flex */
+.search-bar-main{
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
 }
-.flxs{
+/* For Header Title e.g Utopic Flowers */
+.header-title{
     display: flex;
     justify-content: flex-Start;
     padding-left: 30px;
 }
-.flxb{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 30px;
-}
-.utpx{
+.header-title-text{
     font-size: 36px;
     line-height: 36px;
     color: #666666;
     font-family: "Georgia";
 }
-.subtext{
+.header-title-text::first-letter {
+    font-size: 140%;
+}
+
+/* For Navigation Section In Header */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+
+.nav-sub-text{
     font-size: 12px;
     line-height: 0px;
     color: #999999;
     font-family: "Georgia";
 }
-.utpx::first-letter {
-    font-size: 140%;
-}
-
-ul {
+.nav ul {
     list-style: none;
     text-align: center;
     padding-right: 30px;
 }
-li {
+.nav li {
     float: left;
 }
-a {
+.nav a {
     text-decoration: none;
     display: block;
     font-size: 12px;
@@ -67,67 +82,64 @@ a {
     color: #999999;
     font-family: "Georgia";
     padding-inline-start: 40px;
-  }
-.sec{
-    padding-bottom: 10px;
-    padding-top: 10px;
+}
+
+.section-quotes{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #ebebea;
 }
-.quotes{
-    font-size: 31px;
+.quotes-text{
+    font-size: 30px;
     line-height: 40px;
     color: #333333;
     font-family: "Georgia";
     text-align: center;
-    padding-right: 75px;
-    padding-left: 75px;
     font-style: italic;
 }
-.gryline{
+.section-quotes-bar{
     background-color: #e1e1e1;
     display: flex;
     height: 1px;
+    flex-wrap: wrap;
 }
 .slider {
+    display: flex;
+    flex-wrap: wrap;
     height: 380px;
     width: auto;
-    overflow-x: auto;
 }
 .slide {
     width: auto;
     flex-shrink: 10;
     height: 380px;
 }
-img{
+.slider img{
     height: 100%;
     width: 100%;
 }
-
-.icon{
-
-}
-
-.secdis{
-    display: flex;
-    justify-content: space-around;
-    height: 290px;
-    background-color: #ffffff;
-    align-items: center;
-
-}
-.secdiss{
+.section-desc-main{
     display: flex;
     justify-content: space-evenly;
+    /* align-items: center; */
+    /* height: 290px; */
+    background-color: #ffffff;
+}
+.section-desc-sub{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 290px;
+    align-items: center;
 }
 
-.sectitle{
+.section-desc-title{
     font-size: 20px;
     line-height: 24px;
     color: #894aa3;
     font-family: "Georgia";
     padding-left: 20px;
 }
-.secp{
+.section-desc-paragraph{
     width: 209px;
     height: 117px;
     font-size: 13px;
@@ -137,7 +149,7 @@ img{
     padding-left: 20px;
 }
 
-.seccard{
+.section-cards{
     display: flex;
     justify-content: space-around;
     height: 420px;
@@ -145,19 +157,19 @@ img{
     align-items: center;
 }
 
-.cards{
+.cards-main{
     width: 280px;
     height: 320px;
     background-color: #ffffff;
     text-align: center;
     padding-top: 8px;
 }
-.cardimage{
+.card-image{
     height: 180px;
     width: 260px;
 }
 
-.cardp{
+.card-desc{
     width: 250px;
     height: 57px;
     font-size: 13px;
@@ -167,38 +179,44 @@ img{
     text-align: center;
     padding-left: 14px;
 }
-.cardtitle{
+.card-title{
     font-size: 16px;
     line-height: 19px;
     color: #894aa3;
     font-family: "Georgia";
 }
+
+
 .footerline{
     height: 1px;
     background-color: #e1e1e1;
 }
-.footer{
+footer{
     align-items: center;
     display: flex;
     justify-content: space-evenly;
     height: 250px;
     background-color: #ffffff;
 }
-.contitle{
+.footer-title{
     width: 209px;
     font-size: 13px;
     line-height: 16px;
     color: #666666;
     font-family: "Georgia";
 }
-.conp{
+.footer-desc{
     width: 209px;
-    height: 117px;
     font-size: 13px;
-    line-height: 21px;
     color: #999999;
     font-family: "Georgia";
 }
+.footer-blog-desc{
+    width: 209px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+    font-family: "Georgia";}
 .contact{
     width: 209px;
 }
@@ -211,11 +229,15 @@ img{
 .newsletter{
     width: 209px;
 }
-.lnks{
-  border-bottom: #333333;
-  padding-right: 20px;
-  padding-inline-start: 0px;
-  border-bottom: 2px solid #e6e6e6;
+.links-footer{
+    padding-inline-start: 0px;
+    border-bottom: 2px solid #e6e6e6;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    line-height: 17px;
+    color: #999999;
+    font-family: "Georgia";
 }
 .readmore{
     font-size: 12px;
@@ -224,7 +246,7 @@ img{
     font-family: "Georgia";
     text-align: right;
 }
-.newsltt{
+.newsletter-textbox{
     border-color:#e6e6e6 ;
     font-size: 13px;
     line-height: 21px;
@@ -235,7 +257,7 @@ img{
     border-radius: 7px;
     background-color: #e6e6e6;
 }
-.newsubmit{
+.newsletter-submit-button{
     font-size: 13px;
     line-height: 21px;
     color: #874ca0;
@@ -255,7 +277,7 @@ img{
     padding-right: 30px;
     padding-left: 30px;
 }
-.copytext{
+.copyrights-text{
     font-size: 12px;
     line-height: 14px;
     color: #d0d0d0;
